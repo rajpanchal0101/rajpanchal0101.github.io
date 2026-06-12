@@ -446,15 +446,6 @@ nav.scrolled {
     letter-spacing: -0.02em;
 }
 
-.heading-number {
-    font-family: var(--mono);
-    font-size: 1rem;
-    color: var(--accent);
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
-}
-
 /* =============================================
    About
    ============================================= */
