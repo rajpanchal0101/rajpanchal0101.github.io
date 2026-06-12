@@ -904,6 +904,24 @@ nav.scrolled {
 }
 
 /* =============================================
+   IBM Badges
+   ============================================= */
+.badges-section {
+    margin-top: 48px;
+}
+
+.badges-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.badges-grid > div {
+    flex-shrink: 0;
+}
+
+/* =============================================
    Contact
    ============================================= */
 .contact-content {
