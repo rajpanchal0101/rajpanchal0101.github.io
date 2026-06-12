@@ -230,6 +230,9 @@ nav.scrolled {
 .hero-image-wrapper {
     flex-shrink: 0;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-image {
@@ -237,6 +240,8 @@ nav.scrolled {
     height: 280px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center top;
+    background: var(--bg);
     border: 3px solid var(--border);
     position: relative;
     z-index: 1;
@@ -439,15 +444,6 @@ nav.scrolled {
     font-weight: 700;
     margin-bottom: 60px;
     letter-spacing: -0.02em;
-}
-
-.heading-number {
-    font-family: var(--mono);
-    font-size: 1rem;
-    color: var(--accent);
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
 }
 
 /* =============================================
