@@ -1,41 +1,390 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  
-  <head>
-    <meta name="google-site-verification" content="I2urjlVoPKcNlV2ogi_plV5dhPzYOm6FSCV2MYpt7aI" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Panchal — Data Scientist</title>
+    <meta name="description" content="Raj Panchal — Data Science professional with expertise in machine learning, statistical analysis, and end-to-end ML pipelines. Open to full-time data-centric roles.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cursor glow effect -->
+    <div class="cursor-glow" id="cursorGlow"></div>
 
-  <header>
-    <title>Raj Panchal's Portal</title>
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="name" content="Raj Panchal's Portal">
-    <meta name="robots" content="noindex, nofollow">
-  </header>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">RP</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
 
-  <body style="background:url(images/43.jpg); background-size:100% 100%;">
-    <img src="images/4.jpg" width="75%" alt="Banner">
-    <h1>Raj Panchal's Portal</h1>
-    <h2>About Me</h2>
-    <p>I am a fresh CSE graduate from SRM University.</p>
-    <p>I am currently working as an Apprentice in Bank of America.</p>
-    <p>I also have a good knowledge about DBMS.</p>
-    <p>In addition to that, I am a Machine learning and Data Science enthusiast as well.</p>
-    <h2>Credentials and Portfolio</h2>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-content">
+            <div class="hero-image-wrapper reveal">
+                <img src="images/IMG_6297.jpeg" alt="Raj Panchal" class="hero-image">
+                <div class="hero-image-ring"></div>
+            </div>
+            <div class="hero-text">
+                <p class="hero-greeting reveal">Hi, I'm</p>
+                <h1 class="hero-name reveal">Raj Panchal</h1>
+                <p class="hero-title reveal">Data Scientist <span class="separator">&bull;</span> ML Engineer</p>
+                <p class="hero-subtitle reveal">M.Sc. Computer Science (Data Science) — University of Regina</p>
+                <p class="hero-desc reveal">I build end-to-end ML pipelines, turn messy data into decisions, and ship models that work in the real world.</p>
+                <div class="hero-actions reveal">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#projects" class="btn btn-outline">View Projects</a>
+                </div>
+                <div class="hero-social reveal">
+                    <a href="https://www.linkedin.com/in/rajpanchal010100/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/rajpanchal0101" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:rajpanchal1729@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
 
-    <p><a href="https://drive.google.com/file/d/1zltPfuLpGaRb1DQjUTp3LSZCyf81PSuc/view?usp=sharing">My Resume</a> | <a href="https://github.com/rajpanchal0101">My Github</a> | <a href="resume.html">Know More</a></p>
-    <h2>Contact</h2>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-heading reveal"><span class="heading-number">01.</span> About Me</h2>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>I'm a Data Science professional with a published research paper and hands-on experience across <strong>machine learning</strong>, <strong>statistical analysis</strong>, <strong>SQL</strong>, and <strong>BI tools</strong>. I've delivered end-to-end solutions — from raw data pipelines to deployed ML applications on real-world datasets.</p>
+                    <p>Most recently, I worked as a <strong>Transportation Information Analysis Assistant</strong> at the Government of Saskatchewan, where I engineered SQL queries against 122,000+ record datasets, built ETL workflows, and delivered visualizations that supported infrastructure investment decisions.</p>
+                    <p>I'm passionate about turning complex data into actionable insights and building systems that scale. Currently seeking <strong>full-time data-centric roles</strong> where I can make an impact.</p>
+                </div>
+                <div class="about-highlights reveal">
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-brain"></i></div>
+                        <div class="highlight-number">5+</div>
+                        <div class="highlight-label">ML Models Deployed</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-database"></i></div>
+                        <div class="highlight-number">122K+</div>
+                        <div class="highlight-label">Records Processed</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-file-alt"></i></div>
+                        <div class="highlight-number">1</div>
+                        <div class="highlight-label">Published Paper</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-certificate"></i></div>
+                        <div class="highlight-number">3+</div>
+                        <div class="highlight-label">IBM Certifications</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <p>Email: <a href="mailto:rajpanchal1729@gmail.com">rajpanchal1729@gmail.com</a></p>
-  </body>
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <h2 class="section-heading reveal"><span class="heading-number">02.</span> Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Transportation Information Analysis Assistant</h3>
+                                <p class="timeline-company">Government of Saskatchewan (Ministry of Highways)</p>
+                            </div>
+                            <span class="timeline-date">Dec 2024 — Dec 2025</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Regina, SK, Canada</p>
+                        <ul>
+                            <li>Engineered SQL queries via enterprise data warehouse connections, performing data validation, deduplication, null-handling, and bulk updates against a 122,000+ record master dataset.</li>
+                            <li>Architected a rule-based classification schema to encode multi-attribute and multi-jurisdictional edge cases for reproducible, scalable preprocessing.</li>
+                            <li>Executed end-to-end ETL workflows including record segmentation, attribute recalculation, label encoding, and feature engineering.</li>
+                            <li>Delivered cleaned datasets and custom visualizations supporting government grant allocation and infrastructure investment decisions.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>SQL</span><span>ETL</span><span>Data Warehousing</span><span>Excel</span><span>Data Visualization</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Teaching Assistant and Marker</h3>
+                                <p class="timeline-company">University of Regina</p>
+                            </div>
+                            <span class="timeline-date">Jan 2026 — Apr 2026</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Regina, SK, Canada</p>
+                        <ul>
+                            <li>Supported a cohort of 243 students in CS110 (Programming in C++), evaluating assignments and providing technical feedback.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>C++</span><span>Teaching</span><span>Code Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Quality Specialist 1B</h3>
+                                <p class="timeline-company">Bank of America</p>
+                            </div>
+                            <span class="timeline-date">Jun 2021 — Aug 2023</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> GIFT City, Gandhinagar, India</p>
+                        <ul>
+                            <li>Designed and automated monthly utilization reports with visualizations using Excel and Jira data exports for senior project leadership.</li>
+                            <li>Performed API testing in Postman and built automation workflows to validate enterprise IT systems across release cycles.</li>
+                            <li>Analyzed logs, SQL query outputs, and system data to identify discrepancies, tracking defects in Jira through daily cross-geographic syncs.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Postman</span><span>Selenium</span><span>SQL</span><span>Jira</span><span>Agile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <hr>
-    <code>Copyright (c) 2024 Raj Panchal</code>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-heading reveal"><span class="heading-number">03.</span> Projects & Publications</h2>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-card-inner">
+                        <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
+                        <h3>Hospital Readmission Risk Predictor</h3>
+                        <p class="project-date">Apr 2026</p>
+                        <p>Built an end-to-end ML pipeline to predict 30-day hospital readmission on a 101K+ patient dataset, improving recall from 4% to 35%. Deployed an interactive Streamlit dashboard for clinical risk assessment.</p>
+                        <div class="project-tags">
+                            <span>XGBoost</span><span>scikit-learn</span><span>Streamlit</span><span>Explainable AI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-card-inner">
+                        <div class="project-icon"><i class="fas fa-robot"></i></div>
+                        <h3>Scalable Recommendation System</h3>
+                        <p class="project-date">Aug 2024</p>
+                        <p>Developed an expandable recommendation system for real-time, large-scale predictions using cloud-native deep learning tools.</p>
+                        <div class="project-tags">
+                            <span>AWS SageMaker</span><span>MXNet</span><span>Gluon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-card-inner">
+                        <div class="project-icon"><i class="fas fa-camera"></i></div>
+                        <h3>Celebrity Recognition Study</h3>
+                        <p class="project-date">Mar 2024</p>
+                        <p>Designed an image classification model achieving 95.97% accuracy in celebrity recognition, outperforming AWS Rekognition.</p>
+                        <div class="project-tags">
+                            <span>VGG-16</span><span>SVM</span><span>Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card featured reveal">
+                    <div class="project-card-inner">
+                        <div class="project-badge">Published Paper</div>
+                        <div class="project-icon"><i class="fas fa-heart"></i></div>
+                        <h3>Heart Disease Prediction using Deep Learning</h3>
+                        <p class="project-date">Oct 2019 &mdash; Published in IJEAT</p>
+                        <p>Implemented a Deep Learning model to predict heart disease likelihood, improving early diagnosis through accurate predictions. Published in the International Journal of Engineering and Advanced Technology.</p>
+                        <div class="project-tags">
+                            <span>Perceptron</span><span>Gradient Descent</span><span>Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  </footer>
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-heading reveal"><span class="heading-number">04.</span> Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-code"></i></div>
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>SQL</span><span>R</span><span>Java</span><span>C++</span><span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Data & Stats</h3>
+                    <div class="skill-tags">
+                        <span>Pandas</span><span>NumPy</span><span>SciPy</span><span>Hypothesis Testing</span><span>Time Series</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-brain"></i></div>
+                    <h3>ML & Deep Learning</h3>
+                    <div class="skill-tags">
+                        <span>scikit-learn</span><span>TensorFlow</span><span>PyTorch</span><span>Keras</span><span>XGBoost</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+                    <h3>Gen AI & LLMs</h3>
+                    <div class="skill-tags">
+                        <span>LLMs</span><span>Prompt Engineering</span><span>Claude Code</span><span>GitHub Copilot</span><span>Agentic AI</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Visualization & BI</h3>
+                    <div class="skill-tags">
+                        <span>Tableau</span><span>Power BI</span><span>Matplotlib</span><span>Seaborn</span><span>Streamlit</span><span>Excel</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-database"></i></div>
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span><span>PostgreSQL</span><span>MS SQL Server</span><span>MongoDB</span><span>Data Warehousing</span><span>ETL</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-cloud"></i></div>
+                    <h3>Cloud & Big Data</h3>
+                    <div class="skill-tags">
+                        <span>AWS SageMaker</span><span>S3</span><span>EC2</span><span>Lambda</span><span>Apache Spark</span><span>Hadoop</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span>Git</span><span>Jupyter</span><span>Google Colab</span><span>VS Code</span><span>Docker</span><span>Jira</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-heading reveal"><span class="heading-number">05.</span> Education & Certifications</h2>
+            <div class="education-grid">
+                <div class="education-card reveal">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>M.Sc. Computer Science (Data Science)</h3>
+                    <p class="edu-school">University of Regina</p>
+                    <p class="edu-details">Sep 2023 — Apr 2026 &bull; Regina, SK, Canada</p>
+                </div>
+                <div class="education-card reveal">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>B.Tech Computer Science &amp; Engineering</h3>
+                    <p class="edu-school">SRM Institute of Science and Technology</p>
+                    <p class="edu-details">Jul 2017 — Jun 2021 &bull; Chennai, India</p>
+                </div>
+            </div>
+            <div class="certs-section reveal">
+                <h3 class="certs-heading">Certifications</h3>
+                <div class="certs-grid">
+                    <div class="cert-item">
+                        <i class="fab fa-aws"></i>
+                        <div>
+                            <strong>AWS Fundamentals: Going Cloud-Native</strong>
+                            <span>Amazon Web Services</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <strong>IBM Data Science Professional Certificate</strong>
+                            <span>IBM</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-database"></i>
+                        <div>
+                            <strong>Database Management System</strong>
+                            <span>NPTEL / IIT Kharagpur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="badges-section reveal">
+                <h3 class="certs-heading">IBM Badges</h3>
+                <div class="badges-grid">
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="41d5248e-f221-4c34-b947-86c0a6d05cf8" data-share-badge-host="https://www.youracclaim.com"></div>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5556a7a1-42a6-42f3-ac09-bcd8de80ca35" data-share-badge-host="https://www.credly.com"></div>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0a7479ae-12a6-49d2-86d6-7c265356f504" data-share-badge-host="https://www.credly.com"></div>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b7805772-fb1c-4b0c-b257-c55c9c9d609d" data-share-badge-host="https://www.credly.com"></div>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9b7346a8-ca53-46ad-8fcb-98a24c5d2f9a" data-share-badge-host="https://www.credly.com"></div>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6b626b25-79e3-41f7-9eb1-168b6e0849ec" data-share-badge-host="https://www.credly.com"></div>
+                </div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-heading reveal"><span class="heading-number">06.</span> Let's Connect</h2>
+            <div class="contact-content reveal">
+                <p class="contact-intro">I'm actively looking for full-time data science and machine learning roles. Whether you have an opportunity, a question, or just want to say hi — my inbox is always open.</p>
+                <div class="contact-grid">
+                    <a href="mailto:rajpanchal1729@gmail.com" class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <strong>Email</strong>
+                        <span>rajpanchal1729@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rajpanchal010100/" target="_blank" rel="noopener" class="contact-card">
+                        <i class="fab fa-linkedin-in"></i>
+                        <strong>LinkedIn</strong>
+                        <span>rajpanchal010100</span>
+                    </a>
+                    <a href="https://github.com/rajpanchal0101" target="_blank" rel="noopener" class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <strong>GitHub</strong>
+                        <span>rajpanchal0101</span>
+                    </a>
+                </div>
+                <a href="mailto:rajpanchal1729@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Raj Panchal. Built with purpose.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
 </html>
