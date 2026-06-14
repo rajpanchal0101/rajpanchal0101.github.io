@@ -236,8 +236,8 @@ nav.scrolled {
 }
 
 .hero-image {
-    width: 280px;
-    height: 280px;
+    width: 340px;
+    height: 340px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center 0%;
@@ -1075,8 +1075,8 @@ footer p {
     }
 
     .hero-image {
-        width: 200px;
-        height: 200px;
+        width: 260px;
+        height: 260px;
     }
 
     .about-grid {
